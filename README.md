@@ -114,7 +114,7 @@ La VM est prête!
 - Vérifiez la configuration de la taille des disques si le déploiement échoue en raison de problèmes de stockage.
 
 ## Contributeurs
-- **Thomas Duke** - Développeur
+- **ThomasDuke** - Développeur
 
 ## Licence
 Ce projet est sous licence MIT.
