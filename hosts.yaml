@@ -1,0 +1,10 @@
+checkpoint:
+  hosts:
+    check_point:
+      ansible_host: 192.168.0.30
+  vars:
+    ansible_httpapi_use_ssl: true
+    ansible_httpapi_validate_certs: false
+    ansible_network_os: check_point.gaia.checkpoint
+    ansible_password: Expert123*
+    ansible_user: admin

@@ -1,0 +1,18 @@
+gaia_ip: 192.168.0.30
+mgmt_admin_name: cpadmin
+mgmt_admin_passwd: cpadmin
+vcenter_hostname: 192.168.66.1
+vcenter_datacenter: Datacenter
+vcenter_destination_folder: vm
+vcenter_cluster: 192.168.66.8
+vcenter_password: **password**
+vcenter_username: **vsphere account**
+vm_disk_datastore: 3PAR_VV_DS_1
+vm_disk_gb: 160
+vm_ip: 192.168.0.60
+vm_name: TBE-event1
+vm_net_mask: 255.255.255.0
+vm_net_name: TBE-Ansible
+vm_password: Expert123*
+vm_state: poweredon
+vm_template: CheckPoint-R80.40

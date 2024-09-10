@@ -1,0 +1,15 @@
+---
+- name: "Changement du shell"
+  hosts: checkpoint
+  gather_facts: no
+
+  # vars_files:
+  # - vars.yaml
+
+
+  tasks:
+    - name: "Changement du Shell"
+      raw: set user admin shell /bin/bash
+
+    - name: "Save"
+      raw: save config
